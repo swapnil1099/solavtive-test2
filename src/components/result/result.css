@@ -1,0 +1,86 @@
+.result-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-header h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin: 0.5rem 0;
+  }
+  
+  .result-header p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .check-mark {
+    font-size: 3rem;
+    color: green;
+    margin-bottom: 1rem;
+  }
+  
+  .score-section {
+    margin: 2rem 0;
+  }
+  
+  .score-section h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  
+  .score-percentage {
+    font-size: 48px;
+    color: green;
+  }
+  
+  .result-message {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .result-summary {
+    font-size: 16px;
+    margin-bottom: 2rem;
+  }
+  
+  .result-summary p {
+    margin: 0.5rem 0;
+  }
+  
+  .correct-count {
+    color: green;
+    margin-right: 1rem;
+  }
+  
+  .incorrect-count {
+    color: red;
+    margin-right: 1rem;
+  }
+  
+  .unanswered-count {
+    color: orange;
+  }
+  
+  .retake-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff6f7d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .retake-button:hover {
+    background-color: #ff4b5c;
+  }
+  

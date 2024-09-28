@@ -1,0 +1,73 @@
+.quiz-container {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #3d3d3d;
+  }
+  
+  .emoji {
+    font-size: 50px;
+    margin: 20px 0;
+  }
+  
+  .message h2 {
+    font-size: 20px;
+    color: #7c7c7c;
+  }
+  
+  .message h1 {
+    font-size: 36px;
+    color: #663399; /* Custom purple color */
+    margin-bottom: 30px;
+  }
+  
+  .score h1 {
+    font-size: 24px;
+  }
+  
+  .score h2 {
+    font-size: 48px;
+    color: #E1D23D; /* Custom yellow color */
+    margin: 10px 0;
+  }
+  
+  .quiz-details {
+    margin: 30px 0;
+  }
+  
+  .result-summary {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .result-summary p {
+    font-size: 18px;
+  }
+  
+  .correct {
+    color: #29a329; /* Green color */
+  }
+  
+  .incorrect {
+    color: #ff4c4c; /* Red color */
+  }
+  
+  .not-answered {
+    color: #8c8c8c; /* Gray color */
+  }
+  
+  .retake-button {
+    background-color: #f94d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .retake-button:hover {
+    background-color: #e14545;
+  }
+  

@@ -1,0 +1,72 @@
+/* QuizMania.css */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.quiz-container {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f6eb;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.quiz-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.quiz-title {
+  font-size: 36px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.quiz-logo {
+  color: #333;
+}
+
+.quiz-highlight {
+  color: #d64b76;
+  font-weight: bold;
+}
+
+.quiz-content {
+  text-align: center;
+}
+
+.quiz-welcome {
+  font-size: 28px;
+  color: #333;
+}
+
+.quiz-rules {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.quiz-rules p {
+  margin: 0;
+  color: #333;
+}
+
+.quiz-rules-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #d64b76;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.quiz-rules-link:hover {
+  text-decoration: underline;
+}
